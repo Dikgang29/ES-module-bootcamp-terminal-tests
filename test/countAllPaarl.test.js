@@ -12,4 +12,5 @@ describe('countAllPaarl Function', ()=>{
 
         assert.equal(0,countAllPaarl('CY 123, CA 456, CA 789, NP 01112, NA 951'));
     });
+    
 });
