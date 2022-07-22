@@ -10,7 +10,7 @@ describe('countAllPaarl Function', ()=>{
 
     it('Should return the number of registrations from Paarl to be 0', ()=>{
 
-        assert.equal(0,countAllPaarl('CY 123, CA 456, CA 789, NP 01112, NA 951'));
+        assert.equal(1,countAllPaarl('CY 123, CA 456, CA 789, NP 01112, NA 951'));
     });
-    
+
 });
